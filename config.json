@@ -1,0 +1,43 @@
+{
+  "debut_cible": { "mois": 3, "annee": 2027 },
+  "requetes_workday": [
+    "stage assistant chef de produit",
+    "stage marketing Paris",
+    "marketing intern Paris"
+  ],
+  "requetes_smartrecruiters": ["stage", "stagiaire", "intern"],
+  "sources": [
+    { "type": "workday", "nom": "Chanel", "tenant": "cc", "dc": "wd3", "site": "ChanelCareers" },
+    { "type": "workday", "nom": "Richemont (Cartier, Van Cleef, etc.)", "tenant": "richemont", "dc": "wd3", "site": "Richemont" },
+    { "type": "workday", "nom": "Pernod Ricard", "tenant": "pernodricard", "dc": "wd3", "site": "pernod-ricard" },
+    { "type": "workday", "nom": "Mars", "tenant": "mars", "dc": "wd3", "site": "External" },
+    { "type": "workday", "nom": "Unilever", "tenant": "unilever", "dc": "wd3", "site": "Unilever_Experienced_Professionals" },
+    { "type": "workday", "nom": "Diageo", "tenant": "diageo", "dc": "wd3", "site": "Diageo_Careers" },
+    { "type": "workday", "nom": "Coca-Cola", "tenant": "coke", "dc": "wd1", "site": "coca-cola-careers" },
+    { "type": "workday", "nom": "Disney", "tenant": "disney", "dc": "wd5", "site": "disneycareer" },
+    { "type": "workday", "nom": "Warner Bros. Discovery", "tenant": "warnerbros", "dc": "wd5", "site": "global" },
+    { "type": "workday", "nom": "Samsung", "tenant": "sec", "dc": "wd3", "site": "Samsung_Careers" },
+    { "type": "workday", "nom": "LEGO", "tenant": "lego", "dc": "wd103", "site": "LEGO_External" },
+    { "type": "workday", "nom": "Philips", "tenant": "philips", "dc": "wd3", "site": "jobs-and-careers" },
+    { "type": "workday", "nom": "Sanofi", "tenant": "sanofi", "dc": "wd3", "site": "SanofiCareers" },
+    { "type": "workday", "nom": "Levi's", "tenant": "levistraussandco", "dc": "wd5", "site": "External" },
+    { "type": "workday", "nom": "PVH (Calvin Klein, Tommy Hilfiger)", "tenant": "pvh", "dc": "wd1", "site": "PVH_Careers" },
+    { "type": "workday", "nom": "VF (The North Face, Vans)", "tenant": "vfc", "dc": "wd5", "site": "vfc_careers" },
+
+    { "type": "smartrecruiters", "nom": "LVMH", "id": "LVMH" },
+    { "type": "smartrecruiters", "nom": "Ubisoft", "id": "Ubisoft2" },
+    { "type": "smartrecruiters", "nom": "Accor", "id": "AccorHotel" },
+    { "type": "smartrecruiters", "nom": "Kiabi", "id": "Kiabi" },
+    { "type": "smartrecruiters", "nom": "Bosch", "id": "BoschGroup" },
+    { "type": "smartrecruiters", "nom": "Believe", "id": "Believe" },
+
+    { "type": "greenhouse", "nom": "Sony Music France", "id": "sonymusiccareersfrance" },
+    { "type": "greenhouse", "nom": "Mirakl", "id": "mirakl" },
+    { "type": "greenhouse", "nom": "Doctolib", "id": "doctolib" },
+
+    { "type": "lever", "nom": "Vestiaire Collective", "id": "vestiairecollective" },
+    { "type": "lever", "nom": "Qonto", "id": "qonto" },
+    { "type": "lever", "nom": "Swile", "id": "swile" },
+    { "type": "lever", "nom": "Malt", "id": "malt" }
+  ]
+}

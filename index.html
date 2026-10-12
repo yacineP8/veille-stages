@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veille stages</title>
+<style>
+  :root {
+    --fond: #f6f5f1; --surface: #ffffff; --texte: #1c1c1a; --discret: #6a6964; --trait: #e2e0d8;
+    --accent: #1d5c58; --accent-doux: #e3efed;
+    --cible-fond: #dff1e3; --cible-texte: #17552a;
+    --proche-fond: #fbedcf; --proche-texte: #6f4a05;
+    --neutre-fond: #ecebe6; --neutre-texte: #55544f;
+    --nouveau-fond: #1d5c58; --nouveau-texte: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fond: #161614; --surface: #1f1f1c; --texte: #ecebe6; --discret: #a09f98; --trait: #34332f;
+      --accent: #7cc4bd; --accent-doux: #20332f;
+      --cible-fond: #1c3a25; --cible-texte: #a5dfb4;
+      --proche-fond: #3d3010; --proche-texte: #f0cf83;
+      --neutre-fond: #2b2a27; --neutre-texte: #b9b8b1;
+      --nouveau-fond: #7cc4bd; --nouveau-texte: #10201e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fond); color: var(--texte); font: 15px/1.5 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 26px; line-height: 1.2; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h2 { font-size: 16px; margin: 40px 0 8px; }
+  .sous-titre, .maj { color: var(--discret); margin: 0; }
+  .maj { font-size: 13px; margin-top: 2px; }
+  a { color: var(--accent); }
+
+  .chiffres { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 24px 0; }
+  .chiffre { background: var(--surface); border: 1px solid var(--trait); border-radius: 10px; padding: 12px 14px; }
+  .chiffre b { display: block; font-size: 26px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .chiffre span { color: var(--discret); font-size: 13px; }
+
+  .filtres { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 12px 0; border-top: 1px solid var(--trait); border-bottom: 1px solid var(--trait); }
+  .filtres input[type=search], .filtres select, .suivi select, .suivi input {
+    font: inherit; color: var(--texte); background: var(--surface); border: 1px solid var(--trait); border-radius: 8px; padding: 6px 10px;
+  }
+  .filtres input[type=search] { flex: 1 1 200px; min-width: 0; }
+  .pastilles { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pastille { font: inherit; font-size: 13px; cursor: pointer; border: 1px solid var(--trait); background: var(--surface); color: var(--discret); border-radius: 999px; padding: 4px 12px; }
+  .pastille[aria-pressed=true] { background: var(--accent-doux); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .filtres label { font-size: 13px; color: var(--discret); display: flex; align-items: center; gap: 6px; }
+  .compte { color: var(--discret); font-size: 13px; margin: 12px 0 8px; }
+
+  .offre { background: var(--surface); border: 1px solid var(--trait); border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; display: grid; grid-template-columns: 1fr 210px; gap: 8px 20px; }
+  .offre.retiree { opacity: .65; }
+  .offre h3 { font-size: 16px; line-height: 1.35; margin: 0 0 2px; font-weight: 600; }
+  .offre h3 a { color: var(--texte); text-decoration: none; }
+  .offre h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .meta { color: var(--discret); font-size: 13px; margin: 0 0 8px; }
+  .meta strong { color: var(--texte); font-weight: 600; }
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; }
+  .badge { font-size: 12px; border-radius: 6px; padding: 2px 8px; background: var(--neutre-fond); color: var(--neutre-texte); white-space: nowrap; }
+  .badge.cible { background: var(--cible-fond); color: var(--cible-texte); font-weight: 600; }
+  .badge.proche { background: var(--proche-fond); color: var(--proche-texte); }
+  .badge.nouveau { background: var(--nouveau-fond); color: var(--nouveau-texte); font-weight: 600; }
+  .suivi { display: flex; flex-direction: column; gap: 6px; }
+  .suivi select, .suivi input { width: 100%; font-size: 13px; }
+  .vide, .alerte { background: var(--surface); border: 1px dashed var(--trait); border-radius: 10px; padding: 24px; color: var(--discret); text-align: center; }
+  .alerte { text-align: left; border-style: solid; margin: 16px 0; font-size: 13px; }
+  .liens { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 8px 0 0; list-style: none; }
+  .liens a { display: inline-block; border: 1px solid var(--trait); background: var(--surface); border-radius: 8px; padding: 6px 12px; text-decoration: none; font-size: 14px; }
+  .liens a:hover { border-color: var(--accent); }
+  .note-bas { color: var(--discret); font-size: 13px; margin: 0; }
+
+  @media (max-width: 720px) {
+    .chiffres { grid-template-columns: repeat(2, 1fr); }
+    .offre { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Stages assistant chef de produit</h1>
+    <p class="sous-titre">Île-de-France · début visé : <span id="cible">mars 2027</span></p>
+    <p class="maj" id="maj"></p>
+  </header>
+
+  <section class="chiffres" id="chiffres" aria-label="Résumé"></section>
+  <div id="alerte"></div>
+
+  <section class="filtres" aria-label="Filtres">
+    <input type="search" id="recherche" placeholder="Rechercher un intitulé, une entreprise, une ville…" aria-label="Rechercher">
+    <div class="pastilles" id="filtre-debut" role="group" aria-label="Date de début"></div>
+    <select id="filtre-role" aria-label="Ciblage">
+      <option value="">Tous les intitulés</option>
+      <option value="coeur">Cœur de cible uniquement</option>
+      <option value="elargi">Marketing élargi uniquement</option>
+    </select>
+    <select id="filtre-statut" aria-label="Suivi">
+      <option value="ouvertes">Sans les écartées</option>
+      <option value="a-traiter">À traiter (sans statut)</option>
+      <option value="suivies">Mes candidatures</option>
+      <option value="toutes">Toutes</option>
+    </select>
+    <select id="filtre-entreprise" aria-label="Entreprise"><option value="">Toutes les entreprises</option></select>
+    <label><input type="checkbox" id="filtre-nouveau"> Nouvelles uniquement</label>
+  </section>
+
+  <p class="compte" id="compte"></p>
+  <section id="liste" aria-live="polite"></section>
+
+  <h2>À consulter aussi à la main</h2>
+  <p class="note-bas">Ces sites n'autorisent pas la collecte automatique. Les liens ouvrent directement la bonne recherche ; activez-y une alerte e-mail.</p>
+  <ul class="liens">
+    <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/jobs/search/?keywords=stage%20assistant%20chef%20de%20produit%20mars%202027&location=%C3%8Ele-de-France%2C%20France">LinkedIn</a></li>
+    <li><a target="_blank" rel="noopener" href="https://fr.indeed.com/jobs?q=stage+assistant+chef+de+produit+mars+2027&l=%C3%8Ele-de-France">Indeed</a></li>
+    <li><a target="_blank" rel="noopener" href="https://www.welcometothejungle.com/fr/jobs?query=assistant%20chef%20de%20produit%20stage&aroundQuery=%C3%8Ele-de-France">Welcome to the Jungle</a></li>
+    <li><a target="_blank" rel="noopener" href="https://www.jobteaser.com/fr/job-offers?q=assistant%20chef%20de%20produit">JobTeaser</a></li>
+    <li><a target="_blank" rel="noopener" href="https://www.hellowork.com/fr-fr/emploi/recherche.html?k=assistant+chef+de+produit&l=%C3%8Ele-de-France&c=Stage">HelloWork</a></li>
+    <li><a target="_blank" rel="noopener" href="https://careers.loreal.com/fr_FR/jobs/SearchJobs">L'Oréal</a></li>
+    <li><a target="_blank" rel="noopener" href="https://www.lvmh.com/fr/nous-rejoindre/nos-offres">LVMH (toutes maisons)</a></li>
+  </ul>
+</main>
+
+<script src="offres.js"></script>
+<script>
+(function () {
+  const D = window.VEILLE;
+  const liste = document.getElementById("liste");
+  if (!D) {
+    liste.innerHTML = '<p class="vide">Aucune donnée pour l\'instant. Lancez <strong>lancer.bat</strong> pour collecter les offres, puis rechargez cette page.</p>';
+    return;
+  }
+
+  const CLE = "veille-stages-suivi";
+  const STATUTS = ["À postuler", "Candidature envoyée", "Relance faite", "Entretien", "Refus", "Écartée"];
+  const DEBUTS = [["cible", D.cible], ["proche", "Date proche"], ["inconnue", "Date non précisée"], ["autre", "Autre date"]];
+  const debutsActifs = new Set(["cible", "proche", "inconnue"]);
+
+  let suivi = {};
+  try { suivi = JSON.parse(localStorage.getItem(CLE)) || {}; } catch (e) { suivi = {}; }
+  function enregistrer() { try { localStorage.setItem(CLE, JSON.stringify(suivi)); } catch (e) { /* suivi non mémorisé */ } }
+  const statutDe = (o) => (suivi[o.id] && suivi[o.id].statut) || "";
+
+  function el(balise, attributs, enfants) {
+    const noeud = document.createElement(balise);
+    for (const [cle, valeur] of Object.entries(attributs || {})) {
+      if (cle === "texte") noeud.textContent = valeur; else noeud.setAttribute(cle, valeur);
+    }
+    (enfants || []).forEach((enfant) => noeud.append(enfant));
+    return noeud;
+  }
+  function dateFr(iso) {
+    const d = new Date(iso);
+    return isNaN(d) ? "" : d.toLocaleDateString("fr-FR", { day: "numeric", month: "short", year: "numeric" });
+  }
+
+  // les annonces retirées ne restent visibles que si une candidature est suivie dessus
+  const offres = D.offres.filter((o) => o.active || statutDe(o));
+
+  document.getElementById("cible").textContent = D.cible.toLowerCase();
+  const maj = new Date(D.maj);
+  document.getElementById("maj").textContent = "Dernière collecte : " + dateFr(D.maj) + " à " +
+    maj.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" }) + " · " + D.sources.length + " sites carrières interrogés";
+
+  if (D.erreurs && D.erreurs.length) {
+    document.getElementById("alerte").append(el("p", { class: "alerte", texte:
+      "Sources injoignables lors de la dernière collecte : " + D.erreurs.map((e) => e.source).join(", ") + ". Leurs offres seront reprises au prochain passage." }));
+  }
+
+  const choixEntreprise = document.getElementById("filtre-entreprise");
+  [...new Set(offres.map((o) => o.entreprise))].sort((a, b) => a.localeCompare(b, "fr"))
+    .forEach((nom) => choixEntreprise.append(el("option", { value: nom, texte: nom })));
+
+  const zoneDebut = document.getElementById("filtre-debut");
+  DEBUTS.forEach(([cle, libelle]) => {
+    const bouton = el("button", { type: "button", class: "pastille", "aria-pressed": String(debutsActifs.has(cle)), texte: libelle });
+    bouton.addEventListener("click", () => {
+      debutsActifs.has(cle) ? debutsActifs.delete(cle) : debutsActifs.add(cle);
+      bouton.setAttribute("aria-pressed", String(debutsActifs.has(cle)));
+      afficher();
+    });
+    zoneDebut.append(bouton);
+  });
+
+  function chiffres() {
+    const actives = offres.filter((o) => o.active && statutDe(o) !== "Écartée");
+    const nb = (statut) => actives.filter((o) => o.debut.statut === statut).length;
+    const enCours = offres.filter((o) => ["Candidature envoyée", "Relance faite", "Entretien"].includes(statutDe(o))).length;
+    const tuiles = [[nb("cible"), "Début " + D.cible.toLowerCase()], [nb("proche"), "Date proche"],
+                    [nb("inconnue"), "Date non précisée"], [enCours, "Candidatures en cours"]];
+    document.getElementById("chiffres").replaceChildren(...tuiles.map(([n, libelle]) =>
+      el("div", { class: "chiffre" }, [el("b", { texte: n }), el("span", { texte: libelle })])));
+  }
+
+  function carte(o) {
+    const lien = el("a", { href: o.url, target: "_blank", rel: "noopener", texte: o.titre });
+    const meta = el("p", { class: "meta" }, [el("strong", { texte: o.entreprise }), " · " + o.lieu +
+      (o.publie ? " · publiée le " + dateFr(o.publie) : "") + " · " + o.source]);
+    const badges = el("div", { class: "badges" });
+    if (o.nouveau) badges.append(el("span", { class: "badge nouveau", texte: "Nouveau" }));
+    badges.append(el("span", { class: "badge " + o.debut.statut, texte: "Début : " + o.debut.label }));
+    if (o.duree) badges.append(el("span", { class: "badge", texte: o.duree }));
+    badges.append(el("span", { class: "badge", texte: o.role === "coeur" ? "Cœur de cible" : "Marketing élargi" }));
+    if (o.lieu_statut !== "idf") badges.append(el("span", { class: "badge", texte: "Lieu à vérifier" }));
+    if (!o.active) badges.append(el("span", { class: "badge", texte: "Annonce retirée" }));
+
+    const choix = el("select", { "aria-label": "Statut de candidature" }, [el("option", { value: "", texte: "— Statut —" }),
+      ...STATUTS.map((s) => el("option", { value: s, texte: s }))]);
+    choix.value = statutDe(o);
+    const note = el("input", { type: "text", placeholder: "Note (contact, date de relance…)", "aria-label": "Note" });
+    note.value = (suivi[o.id] && suivi[o.id].note) || "";
+    const memoriser = () => {
+      if (choix.value || note.value) suivi[o.id] = { statut: choix.value, note: note.value }; else delete suivi[o.id];
+      enregistrer();
+    };
+    choix.addEventListener("change", () => { memoriser(); afficher(); });
+    note.addEventListener("change", memoriser);
+
+    return el("article", { class: "offre" + (o.active ? "" : " retiree") }, [
+      el("div", {}, [el("h3", {}, [lien]), meta, badges]),
+      el("div", { class: "suivi" }, [choix, note]),
+    ]);
+  }
+
+  function afficher() {
+    const texte = document.getElementById("recherche").value.trim().toLowerCase();
+    const role = document.getElementById("filtre-role").value;
+    const statut = document.getElementById("filtre-statut").value;
+    const entreprise = choixEntreprise.value;
+    const nouveau = document.getElementById("filtre-nouveau").checked;
+    const visibles = offres.filter((o) => {
+      const s = statutDe(o);
+      if (statut === "suivies") { if (!s || s === "Écartée") return false; }
+      else if (!debutsActifs.has(o.debut.statut)) return false;
+      if (statut === "ouvertes" && s === "Écartée") return false;
+      if (statut === "a-traiter" && s) return false;
+      if (role && o.role !== role) return false;
+      if (entreprise && o.entreprise !== entreprise) return false;
+      if (nouveau && !o.nouveau) return false;
+      return !texte || (o.titre + " " + o.entreprise + " " + o.lieu).toLowerCase().includes(texte);
+    });
+    document.getElementById("compte").textContent = visibles.length + " offre" + (visibles.length > 1 ? "s" : "") + " affichée" + (visibles.length > 1 ? "s" : "") + " sur " + offres.length;
+    liste.replaceChildren(...(visibles.length ? visibles.map(carte)
+      : [el("p", { class: "vide", texte: "Aucune offre ne correspond à ces filtres. Activez « Autre date » pour voir les stages qui démarrent à un autre moment." })]));
+    chiffres();
+  }
+
+  ["recherche", "filtre-role", "filtre-statut", "filtre-entreprise", "filtre-nouveau"].forEach((id) =>
+    document.getElementById(id).addEventListener("input", afficher));
+  afficher();
+})();
+</script>
+</body>
+</html>
