@@ -1,0 +1,52 @@
+name: Collecte des offres
+
+on:
+  schedule:
+    - cron: "17 5 * * *" # chaque jour à 5 h 17 UTC, soit vers 7 h à Paris en été et 6 h en hiver
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: collecte
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Collecter les offres
+        run: python collecte.py
+
+      - name: Enregistrer le résultat dans le dépôt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add donnees/offres.json offres.js
+          git diff --cached --quiet || git commit -m "Collecte du $(date -u +%F)"
+          git push
+
+      - name: Préparer le site
+        run: mkdir _site && cp index.html offres.js _site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Publier le site
+        id: deploiement
+        uses: actions/deploy-pages@v4
