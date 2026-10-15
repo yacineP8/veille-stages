@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-14T10:13+00:00",
+ "maj": "2026-10-15T09:54+00:00",
  "debut_veille": "2026-10-12",
  "cible": "Mars 2027",
  "sources": [
@@ -52,7 +52,7 @@
    "role": "coeur",
    "score": 105,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -73,7 +73,7 @@
    "role": "coeur",
    "score": 75,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -94,7 +94,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -115,7 +115,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -136,7 +136,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -157,7 +157,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -178,7 +178,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -199,7 +199,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -220,7 +220,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -241,7 +241,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -262,7 +262,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -283,7 +283,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -325,7 +325,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -346,7 +346,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -367,7 +367,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -388,7 +388,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -409,7 +409,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -430,7 +430,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -451,7 +451,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -493,7 +493,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -514,7 +514,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -535,7 +535,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -556,7 +556,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -577,7 +577,7 @@
    "role": "elargi",
    "score": 55,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -619,9 +619,72 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
+  },
+  {
+   "id": "lever:vestiairecollective:05b9f342-26f7-47f2-8f6b-f39cd2cb8870",
+   "titre": "E-commerce & Merchandising Intern - January 2027",
+   "entreprise": "Vestiaire Collective",
+   "lieu": "Paris",
+   "lieu_statut": "idf",
+   "url": "https://jobs.lever.co/vestiairecollective/05b9f342-26f7-47f2-8f6b-f39cd2cb8870",
+   "source": "Site carrières (Lever)",
+   "publie": "2026-10-15",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-15",
+   "derniere_vue": "2026-10-15",
+   "active": true,
+   "nouveau": true
+  },
+  {
+   "id": "workday:richemont:STAGE---Assistant-e--Sales-Merchandising-Fashion-Accessoires---JANVIER-2027--H-F-X-_JR134773-1",
+   "titre": "STAGE - Assistant(e) Sales Merchandising Fashion Accessoires - JANVIER 2027 (H/F/X)",
+   "entreprise": "Richemont (Cartier, Van Cleef, etc.)",
+   "lieu": "PARIS",
+   "lieu_statut": "idf",
+   "url": "https://richemont.wd3.myworkdayjobs.com/richemont/job/PARIS/STAGE---Assistant-e--Sales-Merchandising-Fashion-Accessoires---JANVIER-2027--H-F-X-_JR134773-1",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-10-14",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-15",
+   "derniere_vue": "2026-10-15",
+   "active": true,
+   "nouveau": true
+  },
+  {
+   "id": "workday:mars:Stage-Mars-Food---Assistant-Category-Manager-France--H-F-X----Janvier--2027---Paris-France---6-mois-_R166954-1",
+   "titre": "Stage Mars Food - Assistant Category Manager France (H/F/X) – Janvier  2027 – Paris France – 6 mois",
+   "entreprise": "Mars",
+   "lieu": "FRA-Paris-Paris",
+   "lieu_statut": "idf",
+   "url": "https://mars.wd3.myworkdayjobs.com/External/job/FRA-Paris-Paris/Stage-Mars-Food---Assistant-Category-Manager-France--H-F-X----Janvier--2027---Paris-France---6-mois-_R166954-1",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-10-14",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-15",
+   "derniere_vue": "2026-10-15",
+   "active": true,
+   "nouveau": true
   },
   {
    "id": "workday:cc:Stage---Assistant-e--Chef-de-Projet-Formation-Internationale--H-F-X----Collections-Expertise---Mode---Janvier-2027_JOBREQ00115764-1",
@@ -640,7 +703,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -661,7 +724,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -682,28 +745,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "workday:philips:Intern-Marketing-Manager-Assistant-One-Blade---janvier-2027-_588726-1",
-   "titre": "STAGE Marketing Manager Assistant One Blade ( janvier 2027)",
-   "entreprise": "Philips",
-   "lieu": "Suresnes",
-   "lieu_statut": "idf",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suresnes/Intern-Marketing-Manager-Assistant-One-Blade---janvier-2027-_588726-1",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-10-09",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -724,7 +766,28 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "workday:philips:Intern-Marketing-Manager-Assistant-One-Blade---janvier-2027-_588726-1",
+   "titre": "STAGE Marketing Manager Assistant One Blade ( janvier 2027)",
+   "entreprise": "Philips",
+   "lieu": "Suresnes",
+   "lieu_statut": "idf",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suresnes/Intern-Marketing-Manager-Assistant-One-Blade---janvier-2027-_588726-1",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-10-09",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-12",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -745,7 +808,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -766,7 +829,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -787,7 +850,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -808,7 +871,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -829,7 +892,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -850,7 +913,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -871,7 +934,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -892,7 +955,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -913,7 +976,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -934,7 +997,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -955,7 +1018,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -976,7 +1039,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -997,7 +1060,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1018,7 +1081,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1039,7 +1102,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1060,7 +1123,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1081,7 +1144,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1102,7 +1165,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1123,7 +1186,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1144,7 +1207,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1165,7 +1228,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1186,7 +1249,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1207,7 +1270,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1228,7 +1291,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1249,7 +1312,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1270,7 +1333,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1291,7 +1354,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1312,7 +1375,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1334,7 +1397,7 @@
    "score": 30,
    "premiere_vue": "2026-10-12",
    "derniere_vue": "2026-10-14",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -1354,7 +1417,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1417,7 +1480,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1438,7 +1501,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   },
@@ -1459,7 +1522,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-14",
+   "derniere_vue": "2026-10-15",
    "active": true,
    "nouveau": false
   }
