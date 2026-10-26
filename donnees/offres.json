@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25T09:49+00:00",
+ "maj": "2026-10-26T11:07+00:00",
  "debut_veille": "2026-10-12",
  "cible": "Mars 2027",
  "sources": [
@@ -33,7 +33,12 @@
   "Swile",
   "Malt"
  ],
- "erreurs": [],
+ "erreurs": [
+  {
+   "source": "Chanel",
+   "erreur": "HTTPError: HTTP Error 500: Internal Server Error"
+  }
+ ],
  "offres": [
   {
    "id": "manuel:indeed:love-and-green-acp",
@@ -52,7 +57,7 @@
    "role": "coeur",
    "score": 105,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -73,7 +78,7 @@
    "role": "coeur",
    "score": 75,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -94,7 +99,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -115,7 +120,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -136,7 +141,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -157,7 +162,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -178,7 +183,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -199,7 +204,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -220,28 +225,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-17",
-   "derniere_vue": "2026-10-25",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "workday:cc:Stage---Assistant-e--Chef-de-Produit-Soin---Parfums-Beaut---Janvier-2027---H-F-X_JOBREQ00114825",
-   "titre": "Stage – Assistant(e) Chef de Produit Soin – Parfums Beauté – Janvier 2027 – H/F/X",
-   "entreprise": "Chanel",
-   "lieu": "Neuilly-Sur-Seine",
-   "lieu_statut": "idf",
-   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Neuilly-Sur-Seine/Stage---Assistant-e--Chef-de-Produit-Soin---Parfums-Beaut---Janvier-2027---H-F-X_JOBREQ00114825",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-10-12",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "coeur",
-   "score": 65,
-   "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -262,7 +246,28 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "workday:cc:Stage---Assistant-e--Chef-de-Produit-Soin---Parfums-Beaut---Janvier-2027---H-F-X_JOBREQ00114825",
+   "titre": "Stage – Assistant(e) Chef de Produit Soin – Parfums Beauté – Janvier 2027 – H/F/X",
+   "entreprise": "Chanel",
+   "lieu": "Neuilly-Sur-Seine",
+   "lieu_statut": "idf",
+   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Neuilly-Sur-Seine/Stage---Assistant-e--Chef-de-Produit-Soin---Parfums-Beaut---Janvier-2027---H-F-X_JOBREQ00114825",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-10-12",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "coeur",
+   "score": 65,
+   "premiere_vue": "2026-10-12",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -284,7 +289,7 @@
    "score": 65,
    "premiere_vue": "2026-10-12",
    "derniere_vue": "2026-10-25",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -325,7 +330,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -346,7 +351,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -388,7 +393,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -409,7 +414,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -430,7 +435,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-22",
+   "derniere_vue": "2026-10-26",
    "active": false,
    "nouveau": false
   },
@@ -451,7 +456,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -472,7 +477,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -514,7 +519,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -535,7 +540,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -556,7 +561,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -577,7 +582,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -598,7 +603,7 @@
    "role": "elargi",
    "score": 55,
    "premiere_vue": "2026-10-24",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": true
   },
@@ -619,7 +624,7 @@
    "role": "elargi",
    "score": 55,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -682,7 +687,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-22",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -703,7 +708,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-22",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -724,28 +729,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "workday:cc:STAGE---Assistante-Visual-Merchandising---Boutiques-Mode---Janvier-2027_JOBREQ00117245-2",
-   "titre": "STAGE – Assistant.e Visual Merchandising - Boutiques Mode - Janvier 2027",
-   "entreprise": "Chanel",
-   "lieu": "Paris",
-   "lieu_statut": "idf",
-   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Paris/STAGE---Assistante-Visual-Merchandising---Boutiques-Mode---Janvier-2027_JOBREQ00117245-2",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-10-19",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -766,7 +750,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -787,7 +771,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-19",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -808,7 +792,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -829,7 +813,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -850,7 +834,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -871,7 +855,28 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "workday:cc:STAGE---Assistante-Visual-Merchandising---Boutiques-Mode---Janvier-2027_JOBREQ00117245-2",
+   "titre": "STAGE – Assistant.e Visual Merchandising - Boutiques Mode - Janvier 2027",
+   "entreprise": "Chanel",
+   "lieu": "Paris",
+   "lieu_statut": "idf",
+   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Paris/STAGE---Assistante-Visual-Merchandising---Boutiques-Mode---Janvier-2027_JOBREQ00117245-2",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-10-19",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-12",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -892,7 +897,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-17",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -913,7 +918,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-15",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -934,7 +939,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-16",
-   "derniere_vue": "2026-10-22",
+   "derniere_vue": "2026-10-26",
    "active": false,
    "nouveau": false
   },
@@ -955,7 +960,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-15",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -976,7 +981,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-15",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -997,7 +1002,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1018,7 +1023,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1039,7 +1044,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-22",
+   "derniere_vue": "2026-10-26",
    "active": false,
    "nouveau": false
   },
@@ -1065,27 +1070,6 @@
    "nouveau": false
   },
   {
-   "id": "workday:cc:Stage---Assistant-e--Chef-de-projet-Merchandising-Campagne-Parfum---KEM--Parfum-Beaut---Janvier-2027---H-F-X_JOBREQ00115148",
-   "titre": "Stage - Assistant(e) Chef de projet Merchandising Campagne Parfum & KEM– Parfum Beauté – Janvier 2027 – H/F/X",
-   "entreprise": "Chanel",
-   "lieu": "Neuilly-Sur-Seine",
-   "lieu_statut": "idf",
-   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Neuilly-Sur-Seine/Stage---Assistant-e--Chef-de-projet-Merchandising-Campagne-Parfum---KEM--Parfum-Beaut---Janvier-2027---H-F-X_JOBREQ00115148",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-10-07",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
-   "active": true,
-   "nouveau": false
-  },
-  {
    "id": "workday:richemont:STAGE---Assistant-e--Sales-Merchandising---JANVIER-2027--H-F-X-_JR133869-1",
    "titre": "STAGE - Assistant(e) Sales Merchandising - JANVIER 2027 (H/F/X)",
    "entreprise": "Richemont (Cartier, Van Cleef, etc.)",
@@ -1102,7 +1086,28 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "workday:cc:Stage---Assistant-e--Chef-de-projet-Merchandising-Campagne-Parfum---KEM--Parfum-Beaut---Janvier-2027---H-F-X_JOBREQ00115148",
+   "titre": "Stage - Assistant(e) Chef de projet Merchandising Campagne Parfum & KEM– Parfum Beauté – Janvier 2027 – H/F/X",
+   "entreprise": "Chanel",
+   "lieu": "Neuilly-Sur-Seine",
+   "lieu_statut": "idf",
+   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Neuilly-Sur-Seine/Stage---Assistant-e--Chef-de-projet-Merchandising-Campagne-Parfum---KEM--Parfum-Beaut---Janvier-2027---H-F-X_JOBREQ00115148",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-10-07",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-12",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1123,7 +1128,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1144,7 +1149,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1165,7 +1170,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1186,7 +1191,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1207,7 +1212,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1228,7 +1233,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1249,7 +1254,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1291,7 +1296,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1312,7 +1317,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1334,7 +1339,7 @@
    "score": 30,
    "premiere_vue": "2026-10-12",
    "derniere_vue": "2026-10-25",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -1354,7 +1359,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1380,27 +1385,6 @@
    "nouveau": false
   },
   {
-   "id": "workday:cc:Stage--Assistant-e--Dveloppement-Produits-Accessoires-de-Mode-H-F-X--Mode--Janvier-2027_JOBREQ00117139",
-   "titre": "Stage- Assistant(e) Développement Produits Accessoires de Mode H/F/X- Mode- Janvier 2027",
-   "entreprise": "Chanel",
-   "lieu": "Paris",
-   "lieu_statut": "idf",
-   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Paris/Stage--Assistant-e--Dveloppement-Produits-Accessoires-de-Mode-H-F-X--Mode--Janvier-2027_JOBREQ00117139",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-09-17",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
-   "active": true,
-   "nouveau": false
-  },
-  {
    "id": "greenhouse:doctolib:7993899003",
    "titre": "Stage - Analyste Stratégie Marketing Patient (x/f/m) - janvier 2027",
    "entreprise": "Doctolib",
@@ -1417,7 +1401,28 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "workday:cc:Stage--Assistant-e--Dveloppement-Produits-Accessoires-de-Mode-H-F-X--Mode--Janvier-2027_JOBREQ00117139",
+   "titre": "Stage- Assistant(e) Développement Produits Accessoires de Mode H/F/X- Mode- Janvier 2027",
+   "entreprise": "Chanel",
+   "lieu": "Paris",
+   "lieu_statut": "idf",
+   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Paris/Stage--Assistant-e--Dveloppement-Produits-Accessoires-de-Mode-H-F-X--Mode--Janvier-2027_JOBREQ00117139",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-09-17",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-12",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1443,27 +1448,6 @@
    "nouveau": false
   },
   {
-   "id": "workday:cc:Stage---Assistant-e--Marketing---Commercial--H-F-X----Mode---Janvier-2027_JOBREQ00117044",
-   "titre": "Stage - Assistant(e) Marketing & Commercial (H/F/X) - Mode – Janvier 2027",
-   "entreprise": "Chanel",
-   "lieu": "Paris",
-   "lieu_statut": "idf",
-   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Paris/Stage---Assistant-e--Marketing---Commercial--H-F-X----Mode---Janvier-2027_JOBREQ00117044",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-09-15",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
-   "active": true,
-   "nouveau": false
-  },
-  {
    "id": "workday:richemont:STAGE---Assistant-e--Collection-Merchandising-PAP---JANVIER-2027--H-F-X-_JR133789-1",
    "titre": "STAGE - Assistant(e) Collection Merchandising PAP - JANVIER 2027 (H/F/X)",
    "entreprise": "Richemont (Cartier, Van Cleef, etc.)",
@@ -1480,7 +1464,28 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "workday:cc:Stage---Assistant-e--Marketing---Commercial--H-F-X----Mode---Janvier-2027_JOBREQ00117044",
+   "titre": "Stage - Assistant(e) Marketing & Commercial (H/F/X) - Mode – Janvier 2027",
+   "entreprise": "Chanel",
+   "lieu": "Paris",
+   "lieu_statut": "idf",
+   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Paris/Stage---Assistant-e--Marketing---Commercial--H-F-X----Mode---Janvier-2027_JOBREQ00117044",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-09-15",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-12",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1501,7 +1506,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1522,7 +1527,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1543,7 +1548,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1564,7 +1569,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-20",
+   "derniere_vue": "2026-10-26",
    "active": false,
    "nouveau": false
   },
@@ -1585,7 +1590,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1627,7 +1632,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1690,7 +1695,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1711,7 +1716,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   },
@@ -1732,7 +1737,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-10-25",
+   "derniere_vue": "2026-10-26",
    "active": true,
    "nouveau": false
   }
