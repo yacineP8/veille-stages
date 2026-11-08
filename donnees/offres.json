@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-07T11:44+00:00",
+ "maj": "2026-11-08T11:56+00:00",
  "debut_veille": "2026-10-12",
  "cible": "Mars 2027",
  "sources": [
@@ -35,14 +35,6 @@
  ],
  "erreurs": [
   {
-   "source": "Richemont (Cartier, Van Cleef, etc.)",
-   "erreur": "HTTPError: HTTP Error 502: Bad Gateway"
-  },
-  {
-   "source": "Diageo",
-   "erreur": "HTTPError: HTTP Error 500: Internal Server Error"
-  },
-  {
    "source": "Doctolib",
    "erreur": "HTTPError: HTTP Error 404: Not Found"
   }
@@ -65,7 +57,7 @@
    "role": "coeur",
    "score": 105,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -86,7 +78,7 @@
    "role": "coeur",
    "score": 75,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -107,7 +99,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -128,7 +120,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-28",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -149,7 +141,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -170,7 +162,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -191,7 +183,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -212,7 +204,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-27",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -233,7 +225,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-11-03",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -254,7 +246,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -275,7 +267,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -296,7 +288,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-28",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -322,6 +314,27 @@
    "nouveau": false
   },
   {
+   "id": "workday:richemont:STAGE-JANVIER-2027---Assistant-Chef-de-Produit-Marketing-Dveloppement--H-F-_JR130396",
+   "titre": "STAGE JANVIER 2027 - Assistant Chef de Produit Marketing Développement (H/F)",
+   "entreprise": "Richemont (Cartier, Van Cleef, etc.)",
+   "lieu": "PARIS",
+   "lieu_statut": "idf",
+   "url": "https://richemont.wd3.myworkdayjobs.com/richemont/job/PARIS/STAGE-JANVIER-2027---Assistant-Chef-de-Produit-Marketing-Dveloppement--H-F-_JR130396",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-10-26",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "coeur",
+   "score": 65,
+   "premiere_vue": "2026-10-12",
+   "derniere_vue": "2026-11-08",
+   "active": true,
+   "nouveau": false
+  },
+  {
    "id": "workday:mars:Stage-Mars-Petcare---Assistant-e--Brand-Manager-portefeuille-Friandises--H-F-X----Janvier-2027---Paris---6-mois-_R170213-1",
    "titre": "Stage Mars Petcare - Assistant(e) Brand Manager portefeuille Friandises (H/F/X) - Janvier 2027 - Paris - 6 mois",
    "entreprise": "Mars",
@@ -338,7 +351,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-27",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -359,28 +372,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "workday:richemont:STAGE-JANVIER-2027---Assistant-Chef-de-Produit-Marketing-Dveloppement--H-F-_JR130396",
-   "titre": "STAGE JANVIER 2027 - Assistant Chef de Produit Marketing Développement (H/F)",
-   "entreprise": "Richemont (Cartier, Van Cleef, etc.)",
-   "lieu": "PARIS",
-   "lieu_statut": "idf",
-   "url": "https://richemont.wd3.myworkdayjobs.com/richemont/job/PARIS/STAGE-JANVIER-2027---Assistant-Chef-de-Produit-Marketing-Dveloppement--H-F-_JR130396",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-10-26",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "coeur",
-   "score": 65,
-   "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -422,7 +414,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -443,7 +435,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-17",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -548,7 +540,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -590,7 +582,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -653,7 +645,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -716,7 +708,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -737,7 +729,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -758,7 +750,7 @@
    "role": "elargi",
    "score": 55,
    "premiere_vue": "2026-10-24",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -779,7 +771,7 @@
    "role": "elargi",
    "score": 55,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -800,7 +792,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -821,7 +813,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-11-06",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": true
   },
@@ -842,7 +834,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-11-04",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -863,7 +855,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-10-28",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -926,7 +918,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -947,7 +939,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-22",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -968,7 +960,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -989,7 +981,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-17",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1031,7 +1023,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1052,7 +1044,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1073,7 +1065,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-29",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1115,91 +1107,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "workday:mars:Stage-Petcare---Manager-activation-et-trade-marketing--H-F-X----Janvier-2027---Paris-France---6-mois_R169941-1",
-   "titre": "Stage Petcare - Manager activation et trade marketing (H/F/X) – Janvier 2027 – Paris France – 6 mois",
-   "entreprise": "Mars",
-   "lieu": "FRA-Paris-Paris",
-   "lieu_statut": "idf",
-   "url": "https://mars.wd3.myworkdayjobs.com/External/job/FRA-Paris-Paris/Stage-Petcare---Manager-activation-et-trade-marketing--H-F-X----Janvier-2027---Paris-France---6-mois_R169941-1",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-10-19",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-19",
-   "derniere_vue": "2026-11-07",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "workday:philips:Intern-Marketing-Manager-Assistant-One-Blade---janvier-2027-_588726-1",
-   "titre": "Stage Marketing Manager Assistant One Blade ( janvier 2027)",
-   "entreprise": "Philips",
-   "lieu": "Suresnes",
-   "lieu_statut": "idf",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suresnes/Intern-Marketing-Manager-Assistant-One-Blade---janvier-2027-_588726-1",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-10-19",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "smartrecruiters:Ubisoft2:744000156357220",
-   "titre": "Growth Marketing Assistant – Stage (6 mois) Janvier 2027 (F/H/NB)",
-   "entreprise": "Ubisoft",
-   "lieu": "Paris, IDF, France",
-   "lieu_statut": "idf",
-   "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000156357220",
-   "source": "Site carrières (SmartRecruiters)",
-   "publie": "2026-10-19",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-07",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "lever:vestiairecollective:f7bdf58c-f3ac-4e55-913a-974f662acdb3",
-   "titre": "Performance Marketing Intern - January 2027",
-   "entreprise": "Vestiaire Collective",
-   "lieu": "Paris",
-   "lieu_statut": "idf",
-   "url": "https://jobs.lever.co/vestiairecollective/f7bdf58c-f3ac-4e55-913a-974f662acdb3",
-   "source": "Site carrières (Lever)",
-   "publie": "2026-10-19",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1220,7 +1128,91 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "workday:mars:Stage-Petcare---Manager-activation-et-trade-marketing--H-F-X----Janvier-2027---Paris-France---6-mois_R169941-1",
+   "titre": "Stage Petcare - Manager activation et trade marketing (H/F/X) – Janvier 2027 – Paris France – 6 mois",
+   "entreprise": "Mars",
+   "lieu": "FRA-Paris-Paris",
+   "lieu_statut": "idf",
+   "url": "https://mars.wd3.myworkdayjobs.com/External/job/FRA-Paris-Paris/Stage-Petcare---Manager-activation-et-trade-marketing--H-F-X----Janvier-2027---Paris-France---6-mois_R169941-1",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-10-19",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-19",
+   "derniere_vue": "2026-11-08",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "workday:philips:Intern-Marketing-Manager-Assistant-One-Blade---janvier-2027-_588726-1",
+   "titre": "Stage Marketing Manager Assistant One Blade ( janvier 2027)",
+   "entreprise": "Philips",
+   "lieu": "Suresnes",
+   "lieu_statut": "idf",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suresnes/Intern-Marketing-Manager-Assistant-One-Blade---janvier-2027-_588726-1",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-10-19",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-12",
+   "derniere_vue": "2026-11-08",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "smartrecruiters:Ubisoft2:744000156357220",
+   "titre": "Growth Marketing Assistant – Stage (6 mois) Janvier 2027 (F/H/NB)",
+   "entreprise": "Ubisoft",
+   "lieu": "Paris, IDF, France",
+   "lieu_statut": "idf",
+   "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000156357220",
+   "source": "Site carrières (SmartRecruiters)",
+   "publie": "2026-10-19",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-20",
+   "derniere_vue": "2026-11-08",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "lever:vestiairecollective:f7bdf58c-f3ac-4e55-913a-974f662acdb3",
+   "titre": "Performance Marketing Intern - January 2027",
+   "entreprise": "Vestiaire Collective",
+   "lieu": "Paris",
+   "lieu_statut": "idf",
+   "url": "https://jobs.lever.co/vestiairecollective/f7bdf58c-f3ac-4e55-913a-974f662acdb3",
+   "source": "Site carrières (Lever)",
+   "publie": "2026-10-19",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-20",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1262,7 +1254,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-15",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1304,7 +1296,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-15",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1346,7 +1338,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1430,7 +1422,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1451,49 +1443,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "smartrecruiters:Ubisoft2:744000153201361",
-   "titre": "Trade Marketing Assistant - Stage (6 mois) Janvier 2027 (F/H/NB)",
-   "entreprise": "Ubisoft",
-   "lieu": "Paris, IDF, France",
-   "lieu_statut": "idf",
-   "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000153201361",
-   "source": "Site carrières (SmartRecruiters)",
-   "publie": "2026-10-02",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "smartrecruiters:Ubisoft2:744000153206238",
-   "titre": "Trade Marketing Assistant – Internship (6-month) January 2027 (W/M/NB)",
-   "entreprise": "Ubisoft",
-   "lieu": "Paris, IDF, France",
-   "lieu_statut": "idf",
-   "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000153206238",
-   "source": "Site carrières (SmartRecruiters)",
-   "publie": "2026-10-02",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1514,7 +1464,49 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "smartrecruiters:Ubisoft2:744000153201361",
+   "titre": "Trade Marketing Assistant - Stage (6 mois) Janvier 2027 (F/H/NB)",
+   "entreprise": "Ubisoft",
+   "lieu": "Paris, IDF, France",
+   "lieu_statut": "idf",
+   "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000153201361",
+   "source": "Site carrières (SmartRecruiters)",
+   "publie": "2026-10-02",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-12",
+   "derniere_vue": "2026-11-08",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "smartrecruiters:Ubisoft2:744000153206238",
+   "titre": "Trade Marketing Assistant – Internship (6-month) January 2027 (W/M/NB)",
+   "entreprise": "Ubisoft",
+   "lieu": "Paris, IDF, France",
+   "lieu_statut": "idf",
+   "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000153206238",
+   "source": "Site carrières (SmartRecruiters)",
+   "publie": "2026-10-02",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-12",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1556,7 +1548,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1619,7 +1611,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1640,7 +1632,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1682,7 +1674,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1703,7 +1695,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1724,7 +1716,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1766,7 +1758,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1787,7 +1779,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1808,7 +1800,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1829,7 +1821,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1871,7 +1863,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1913,7 +1905,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1976,7 +1968,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -1997,7 +1989,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   },
@@ -2018,7 +2010,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-07",
+   "derniere_vue": "2026-11-08",
    "active": true,
    "nouveau": false
   }
