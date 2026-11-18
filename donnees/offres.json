@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T14:24+00:00",
+ "maj": "2026-11-18T13:58+00:00",
  "debut_veille": "2026-10-12",
  "cible": "Mars 2027",
  "sources": [
@@ -37,6 +37,10 @@
   {
    "source": "Doctolib",
    "erreur": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "Qonto",
+   "erreur": "TimeoutError: The read operation timed out"
   }
  ],
  "offres": [
@@ -57,7 +61,7 @@
    "role": "coeur",
    "score": 105,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -78,7 +82,7 @@
    "role": "coeur",
    "score": 75,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -99,7 +103,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -120,7 +124,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-28",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -141,7 +145,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -162,7 +166,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -183,7 +187,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -204,7 +208,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -225,7 +229,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-27",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -246,7 +250,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-11-03",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -267,7 +271,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -330,7 +334,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -351,7 +355,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -414,7 +418,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -540,7 +544,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -582,7 +586,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -645,7 +649,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -708,7 +712,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -729,7 +733,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -750,7 +754,7 @@
    "role": "elargi",
    "score": 55,
    "premiere_vue": "2026-10-24",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -792,7 +796,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-11-10",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -834,7 +838,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -855,7 +859,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-11-06",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -897,7 +901,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-10-28",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -960,7 +964,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -981,7 +985,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1002,7 +1006,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-11-11",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1023,7 +1027,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1044,7 +1048,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-22",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1065,7 +1069,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1086,7 +1090,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-17",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1128,7 +1132,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1149,7 +1153,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1212,7 +1216,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1233,7 +1237,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-19",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1254,7 +1258,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1275,7 +1279,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1359,7 +1363,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-15",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1401,7 +1405,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-15",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1443,7 +1447,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1527,7 +1531,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1548,7 +1552,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1570,7 +1574,7 @@
    "score": 30,
    "premiere_vue": "2026-10-12",
    "derniere_vue": "2026-11-17",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -1591,7 +1595,7 @@
    "score": 30,
    "premiere_vue": "2026-10-12",
    "derniere_vue": "2026-11-17",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -1716,7 +1720,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1737,7 +1741,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1821,7 +1825,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1863,7 +1867,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1884,7 +1888,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1926,7 +1930,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -1968,7 +1972,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -2031,7 +2035,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -2052,7 +2056,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   },
@@ -2073,7 +2077,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-17",
+   "derniere_vue": "2026-11-18",
    "active": true,
    "nouveau": false
   }
