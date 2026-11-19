@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-18T13:58+00:00",
+ "maj": "2026-11-19T14:26+00:00",
  "debut_veille": "2026-10-12",
  "cible": "Mars 2027",
  "sources": [
@@ -37,10 +37,6 @@
   {
    "source": "Doctolib",
    "erreur": "HTTPError: HTTP Error 404: Not Found"
-  },
-  {
-   "source": "Qonto",
-   "erreur": "TimeoutError: The read operation timed out"
   }
  ],
  "offres": [
@@ -61,7 +57,7 @@
    "role": "coeur",
    "score": 105,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -82,7 +78,7 @@
    "role": "coeur",
    "score": 75,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -103,7 +99,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -124,7 +120,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-28",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -145,7 +141,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -166,7 +162,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -187,7 +183,28 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "workday:mars:Stage-Mars-Food---Assistant-e--Chef-de-Produits-Suzi-Wan--H-F-X----Janvier-2027---Paris---6-mois_R166964-1",
+   "titre": "Stage Mars Food - Assistant(e) Chef de Produits Suzi Wan (H/F/X) – Janvier 2027 – Paris – 6 mois",
+   "entreprise": "Mars",
+   "lieu": "FRA-Paris-Paris",
+   "lieu_statut": "idf",
+   "url": "https://mars.wd3.myworkdayjobs.com/External/job/FRA-Paris-Paris/Stage-Mars-Food---Assistant-e--Chef-de-Produits-Suzi-Wan--H-F-X----Janvier-2027---Paris---6-mois_R166964-1",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-11-05",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "coeur",
+   "score": 65,
+   "premiere_vue": "2026-10-27",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -209,28 +226,7 @@
    "score": 65,
    "premiere_vue": "2026-10-12",
    "derniere_vue": "2026-11-18",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "workday:mars:Stage-Mars-Food---Assistant-e--Chef-de-Produits-Suzi-Wan--H-F-X----Janvier-2027---Paris---6-mois_R166964-1",
-   "titre": "Stage Mars Food - Assistant(e) Chef de Produits Suzi Wan (H/F/X) – Janvier 2027 – Paris – 6 mois",
-   "entreprise": "Mars",
-   "lieu": "FRA-Paris-Paris",
-   "lieu_statut": "idf",
-   "url": "https://mars.wd3.myworkdayjobs.com/External/job/FRA-Paris-Paris/Stage-Mars-Food---Assistant-e--Chef-de-Produits-Suzi-Wan--H-F-X----Janvier-2027---Paris---6-mois_R166964-1",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-11-05",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "coeur",
-   "score": 65,
-   "premiere_vue": "2026-10-27",
-   "derniere_vue": "2026-11-18",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -250,7 +246,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-11-03",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -271,7 +267,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -334,7 +330,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -355,7 +351,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -418,7 +414,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -544,7 +540,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -587,7 +583,7 @@
    "score": 65,
    "premiere_vue": "2026-10-12",
    "derniere_vue": "2026-11-18",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -649,7 +645,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -712,7 +708,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -733,7 +729,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -754,7 +750,7 @@
    "role": "elargi",
    "score": 55,
    "premiere_vue": "2026-10-24",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -780,6 +776,27 @@
    "nouveau": false
   },
   {
+   "id": "workday:philips:Stagiaire-administratif-et-support-commercial_593128-1",
+   "titre": "Stage Ingénieur Commercial & Marketing Cardiologie _Janvier 2027 (H/F)",
+   "entreprise": "Philips",
+   "lieu": "Suresnes",
+   "lieu_statut": "idf",
+   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suresnes/Stagiaire-administratif-et-support-commercial_593128-1",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-11-19",
+   "debut": {
+    "statut": "inconnue",
+    "label": "Non précisée"
+   },
+   "duree": "",
+   "role": "elargi",
+   "score": 40,
+   "premiere_vue": "2026-10-30",
+   "derniere_vue": "2026-11-19",
+   "active": true,
+   "nouveau": false
+  },
+  {
    "id": "smartrecruiters:Believe:744000160637570",
    "titre": "Marketing & Communication Assistant - Stage (H/F/N)",
    "entreprise": "Believe",
@@ -796,7 +813,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-11-10",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -822,27 +839,6 @@
    "nouveau": false
   },
   {
-   "id": "workday:philips:Stagiaire-administratif-et-support-commercial_593128-1",
-   "titre": "Stage Ingénieur Commercial & Marketing Cardiologie  (H/F)",
-   "entreprise": "Philips",
-   "lieu": "Suresnes",
-   "lieu_statut": "idf",
-   "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Suresnes/Stagiaire-administratif-et-support-commercial_593128-1",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-11-06",
-   "debut": {
-    "statut": "inconnue",
-    "label": "Non précisée"
-   },
-   "duree": "",
-   "role": "elargi",
-   "score": 40,
-   "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-18",
-   "active": true,
-   "nouveau": false
-  },
-  {
    "id": "smartrecruiters:AccorHotel:744000159932089",
    "titre": "Stagiaire en digital Marketing & Communication (H/F)",
    "entreprise": "Accor",
@@ -859,7 +855,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-11-06",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -901,7 +897,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-10-28",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -948,6 +944,27 @@
    "nouveau": false
   },
   {
+   "id": "workday:cc:Stage---Assistant-Chef-de-Projet-Digital-Exprience-Client---Parfums-Beaut---Janvier-2027---H-F-X_JOBREQ00116054",
+   "titre": "Stage - Assistant Chef de Projet Digital & Innovation Expérience Client - Parfums Beauté – Janvier 2027 - H/F/X",
+   "entreprise": "Chanel",
+   "lieu": "Neuilly-Sur-Seine",
+   "lieu_statut": "idf",
+   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Neuilly-Sur-Seine/Stage---Assistant-Chef-de-Projet-Digital-Exprience-Client---Parfums-Beaut---Janvier-2027---H-F-X_JOBREQ00116054",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-11-18",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "elargi",
+   "score": 30,
+   "premiere_vue": "2026-10-17",
+   "derniere_vue": "2026-11-19",
+   "active": true,
+   "nouveau": false
+  },
+  {
    "id": "workday:richemont:STAGE---Assistant-e--Marketing---Merchandising-Accessoires---Janvier-2027_JR133166-1",
    "titre": "STAGE - Assistant(e) Marketing & Merchandising Accessoires - Janvier 2027",
    "entreprise": "Richemont (Cartier, Van Cleef, etc.)",
@@ -964,7 +981,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -985,7 +1002,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1006,7 +1023,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-11-11",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1027,7 +1044,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1048,7 +1065,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-22",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1069,28 +1086,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
-   "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "workday:cc:Stage---Assistant-Chef-de-Projet-Digital-Exprience-Client---Parfums-Beaut---Janvier-2027---H-F-X_JOBREQ00116054",
-   "titre": "Stage - Assistant Chef de Projet Digital & Innovation Expérience Client - Parfums Beauté – Janvier 2027 - H/F/X",
-   "entreprise": "Chanel",
-   "lieu": "Neuilly-Sur-Seine",
-   "lieu_statut": "idf",
-   "url": "https://cc.wd3.myworkdayjobs.com/ChanelCareers/job/Neuilly-Sur-Seine/Stage---Assistant-Chef-de-Projet-Digital-Exprience-Client---Parfums-Beaut---Janvier-2027---H-F-X_JOBREQ00116054",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-11-03",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "elargi",
-   "score": 30,
-   "premiere_vue": "2026-10-17",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1132,7 +1128,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1153,7 +1149,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1216,7 +1212,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1237,7 +1233,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-19",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1258,7 +1254,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1279,7 +1275,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1364,7 +1360,7 @@
    "score": 30,
    "premiere_vue": "2026-10-15",
    "derniere_vue": "2026-11-18",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -1405,7 +1401,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-15",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1447,7 +1443,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1531,7 +1527,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1552,7 +1548,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1720,7 +1716,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1741,7 +1737,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1825,7 +1821,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1867,7 +1863,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1888,7 +1884,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1930,7 +1926,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -1972,7 +1968,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -2035,7 +2031,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -2056,7 +2052,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   },
@@ -2077,7 +2073,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-18",
+   "derniere_vue": "2026-11-19",
    "active": true,
    "nouveau": false
   }
