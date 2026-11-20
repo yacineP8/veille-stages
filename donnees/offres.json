@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T14:26+00:00",
+ "maj": "2026-11-20T14:00+00:00",
  "debut_veille": "2026-10-12",
  "cible": "Mars 2027",
  "sources": [
@@ -57,7 +57,7 @@
    "role": "coeur",
    "score": 105,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -69,7 +69,7 @@
    "lieu_statut": "idf",
    "url": "https://richemont.wd3.myworkdayjobs.com/richemont/job/PARIS/Stage---Assistant-e--Chef-de-produit-Joaillerie---Coordination-Marketing--H-F-_JR133036",
    "source": "Site carrières (Workday)",
-   "publie": "2026-08-27",
+   "publie": "2026-11-20",
    "debut": {
     "statut": "inconnue",
     "label": "Non précisée"
@@ -78,9 +78,30 @@
    "role": "coeur",
    "score": 75,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
+  },
+  {
+   "id": "workday:unilever:Assistant-e--Chef-fe--de-produit_R-1189293",
+   "titre": "Assistant(e) Chef(fe) de produit - Stage (6 mois)",
+   "entreprise": "Unilever",
+   "lieu": "Rueil Malmaison",
+   "lieu_statut": "idf",
+   "url": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals/job/Rueil-Malmaison/Assistant-e--Chef-fe--de-produit_R-1189293",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-11-19",
+   "debut": {
+    "statut": "inconnue",
+    "label": "Non précisée"
+   },
+   "duree": "6 mois",
+   "role": "coeur",
+   "score": 75,
+   "premiere_vue": "2026-11-20",
+   "derniere_vue": "2026-11-20",
+   "active": true,
+   "nouveau": true
   },
   {
    "id": "smartrecruiters:Ubisoft2:744000158509579",
@@ -99,7 +120,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -120,7 +141,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-28",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -141,7 +162,7 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -162,7 +183,28 @@
    "role": "elargi",
    "score": 70,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
+   "active": true,
+   "nouveau": false
+  },
+  {
+   "id": "workday:unilever:Assistant-e--Chef-fe--de-produit--Thrapeutique--Pharma---Mass-_R-1189287",
+   "titre": "Assistant(e) Chef(fe) de produit  Thérapeutique (Pharma & Mass) - Stage (6 mois)",
+   "entreprise": "Unilever",
+   "lieu": "Rueil Malmaison",
+   "lieu_statut": "idf",
+   "url": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals/job/Rueil-Malmaison/Assistant-e--Chef-fe--de-produit--Thrapeutique--Pharma---Mass-_R-1189287",
+   "source": "Site carrières (Workday)",
+   "publie": "2026-11-19",
+   "debut": {
+    "statut": "autre",
+    "label": "Janvier 2027"
+   },
+   "duree": "6 mois",
+   "role": "coeur",
+   "score": 65,
+   "premiere_vue": "2026-10-28",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -183,7 +225,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -204,7 +246,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-27",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -246,7 +288,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-11-03",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -267,29 +309,8 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
-   "nouveau": false
-  },
-  {
-   "id": "workday:unilever:Assistant-e--Chef-fe--de-produit--Thrapeutique--Pharma---Mass-_R-1189287",
-   "titre": "Assistant(e) Chef(fe) de produit  Thérapeutique (Pharma & Mass)",
-   "entreprise": "Unilever",
-   "lieu": "Rueil Malmaison",
-   "lieu_statut": "idf",
-   "url": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals/job/Rueil-Malmaison/Assistant-e--Chef-fe--de-produit--Thrapeutique--Pharma---Mass-_R-1189287",
-   "source": "Site carrières (Workday)",
-   "publie": "2026-10-27",
-   "debut": {
-    "statut": "autre",
-    "label": "Janvier 2027"
-   },
-   "duree": "6 mois",
-   "role": "coeur",
-   "score": 65,
-   "premiere_vue": "2026-10-28",
-   "derniere_vue": "2026-11-09",
-   "active": false,
    "nouveau": false
   },
   {
@@ -330,7 +351,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -351,7 +372,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -414,7 +435,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -540,7 +561,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -646,7 +667,7 @@
    "score": 65,
    "premiere_vue": "2026-10-12",
    "derniere_vue": "2026-11-19",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -708,7 +729,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -729,7 +750,7 @@
    "role": "coeur",
    "score": 65,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -750,7 +771,7 @@
    "role": "elargi",
    "score": 55,
    "premiere_vue": "2026-10-24",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -792,7 +813,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -813,7 +834,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-11-10",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -855,7 +876,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-11-06",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -897,7 +918,7 @@
    "role": "elargi",
    "score": 40,
    "premiere_vue": "2026-10-28",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -960,7 +981,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-17",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -981,7 +1002,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1002,7 +1023,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1023,7 +1044,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-11-11",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1044,7 +1065,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1065,7 +1086,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-22",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1086,7 +1107,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1128,7 +1149,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1149,7 +1170,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-30",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1212,7 +1233,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1233,7 +1254,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-19",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1254,7 +1275,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1275,7 +1296,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-20",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1401,7 +1422,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-15",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1443,7 +1464,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1527,7 +1548,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1548,7 +1569,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1717,7 +1738,7 @@
    "score": 30,
    "premiere_vue": "2026-10-12",
    "derniere_vue": "2026-11-19",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -1738,7 +1759,7 @@
    "score": 30,
    "premiere_vue": "2026-10-12",
    "derniere_vue": "2026-11-19",
-   "active": true,
+   "active": false,
    "nouveau": false
   },
   {
@@ -1821,7 +1842,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1863,7 +1884,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1884,7 +1905,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1926,7 +1947,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -1968,7 +1989,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -2031,7 +2052,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -2052,7 +2073,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   },
@@ -2073,7 +2094,7 @@
    "role": "elargi",
    "score": 30,
    "premiere_vue": "2026-10-12",
-   "derniere_vue": "2026-11-19",
+   "derniere_vue": "2026-11-20",
    "active": true,
    "nouveau": false
   }
